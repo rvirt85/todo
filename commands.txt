@@ -1,0 +1,3 @@
+kubectl create --namespace ame
+helm install todo-helm-pck --debug -name todo-helm-pck
+helm push todo-helm-pck.tgz chartmuseum
